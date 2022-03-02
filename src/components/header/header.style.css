@@ -1,9 +1,11 @@
 header {
     background-color: #f8bc14;
     box-shadow: 0 3px 8px rgba(170, 170, 170, 0.589);
-    margin-bottom: 1vh;
+    /* margin-bottom: 1vh; */
     padding: 1rem;
 }
 .headerText {
     color: white;
+    font-family: "McLaren", cursive;
+    font-weight: normal;
 }

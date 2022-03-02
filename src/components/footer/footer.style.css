@@ -1,8 +1,9 @@
 footer {
     position: absolute;
-    bottom: 20px;
+    bottom: 0;
     width: 100%;
     text-align: center;
+    height: 2.5rem;
 }
 
 .footerText {
