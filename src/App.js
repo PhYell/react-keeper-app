@@ -3,13 +3,13 @@ import "./App.css";
 
 import Footer from "./components/footer/Footer.component";
 import Header from "./components/header/Header.component";
-import Note from "./components/note/Note.component";
+import NoteList from "./components/notelist/NoteList.component";
 
 function App() {
     return (
         <div className="App">
             <Header />
-            <Note />
+            <NoteList />
             <Footer />
         </div>
     );
@@ -17,4 +17,4 @@ function App() {
 
 export default App;
 
-// watch 410
+// watch 412

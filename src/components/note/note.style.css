@@ -1,17 +1,28 @@
-.nodePanel {
+.note-panel {
     background-color: white;
     box-shadow: 0 0 8px rgba(170, 170, 170, 0.589);
-    padding: 1rem 1.5rem;
     display: inline-block;
     border-radius: 15px;
-    margin: 2vh 2vw;
+    margin: 1vh 1vw;
 
     max-width: 240px;
+    /* height: 100%; */
+    position: relative;
 }
-.noteHeader,
-.noteText {
+.note-info {
+    padding: 1.1rem 1.6rem;
+}
+.note-header,
+.note-text {
     font-size: 1.2rem;
 }
-.noteHeader {
+.note-header {
     margin-bottom: 2px;
+}
+.task-id {
+    position: absolute;
+    left: 8px;
+    bottom: 8px;
+    color: #d8d8d8;
+    font-size: 0.8rem;
 }

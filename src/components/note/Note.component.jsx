@@ -1,10 +1,13 @@
 import "./note.style.css";
 
-function Note() {
+function Note(props) {
     return (
-        <div className="nodePanel">
-            <h1 className="noteHeader">this is note title</h1>
-            <p className="noteText">this is note text</p>
+        <div className="note-panel">
+            <div className="note-info">
+                <h1 className="note-header">{props.title}</h1>
+                <p className="note-text">{props.text}</p>
+            </div>
+            <p className="task-id">{props.taskId}</p>
         </div>
     );
 }
