@@ -1,0 +1,12 @@
+.nodePanel {
+    background-color: white;
+    box-shadow: 0 0 8px rgba(170, 170, 170, 0.589);
+    padding: 1rem 1.5rem;
+    display: inline-block;
+    border-radius: 15px;
+    margin: 1vh 1vw;
+}
+.noteHeader,
+.noteText {
+    font-size: 1.2rem;
+}
